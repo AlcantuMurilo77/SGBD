@@ -32,3 +32,6 @@ clean:
 	rm -rf $(BIN_DIR)
 
 .PHONY: build run test clean
+
+format:
+	find src include tests -type f \( -name "*.c" -o -name "*.h" \) -exec clang-format -i {} + 
