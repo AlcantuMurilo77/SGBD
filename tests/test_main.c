@@ -1,12 +1,10 @@
 #include <assert.h>
 #include <stdio.h>
 
-int sum(int a, int b){
-    return a+b;
-}
+int sum(int a, int b) { return a + b; }
 
-int main(){
-    assert(sum(5, 5) == 10);
-    printf("\nAll tests passed.\n");
-    return 0;
+int test() {
+  assert(sum(5, 5) == 10);
+  printf("\nAll tests passed.\n");
+  return 0;
 }
