@@ -8,7 +8,7 @@ BIN_DIR = bin
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror -O0 -g -fsanitize=address,undefined -Iinclude src/log.c -o bin/sgb
 
-SRC = ${SRC_DIR}/main.c
+SRC = ${SRC_DIR}/main.c ${SRC_DIR}/storage.c
 TEST_SRC = ${TEST_DIR}/test_main.c
 
 
