@@ -3,8 +3,10 @@
 #include <stdio.h>
 #include <string.h>
 #include <storage.h>
-
+#include <file.h>
 #define VERSION "0.1"
+
+//TODO: Apply file.h usage
 
 int main() {
   char input[256];
